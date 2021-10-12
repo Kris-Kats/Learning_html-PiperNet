@@ -1,0 +1,248 @@
+.container {
+    box-sizing: border-box;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: auto;
+}
+
+.container2 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+/*шапка с менюхой*/
+
+.header {
+    position: fixed;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-color: #495c70;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    /*один из способов разместить элементы в строку*/
+}
+
+a {
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    /* Гарнитура шрифта */
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.header__message {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    /*text-align: center;*/
+    color: #fff;
+}
+
+
+/*PiperNet Is Here*/
+
+.pipernet {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-image: url(001.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.pipernet__message {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 56px;
+    text-align: center;
+    color: white;
+}
+
+
+/*The Problem с абзацами*/
+
+.problem {
+    padding-top: 12px;
+    padding-bottom: 60px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.problem__message {
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 70px;
+    text-align: center;
+    color: #495c70;
+    padding-top: 50px;
+    padding-bottom: 35px;
+}
+
+.problem__message2 {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: justify;
+    color: black;
+    padding-bottom: 12px;
+}
+
+
+/*We’re in this together!*/
+
+.hero {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-image: url(002.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero__message {
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
+}
+
+
+/*Introducing PiedPiperCoin*/
+
+.introducing {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.introducing__message {
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 70px;
+    text-align: center;
+    color: #495c70;
+    padding-top: 50px;
+    padding-bottom: 35px;
+}
+
+.introducing__message2 {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: justify;
+    color: black;
+    padding-bottom: 12px;
+}
+
+
+/*The Team*/
+
+.team {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-size: cover;
+    background-position: center center;
+    background-color: #dddfe1;
+    height: auto;
+}
+
+.team__message {
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 70px;
+    text-align: center;
+    color: #495c70;
+    padding-top: 20px;
+    padding-bottom: 12px;
+}
+
+.team__message2 {
+    width: 32%;
+    max-width: 32%;
+    min-width: 300px;
+    border-radius: 0px 0px 10px 10px;
+    padding: 0px 5px 0px 5px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 50px;
+}
+
+h5 {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    color: #495c70;
+}
+
+h6 {
+    font-size: 18px;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 50px;
+    color: black;
+    font-style: italic;
+}
+
+
+/*
+.team__message2 {
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 12px;
+}
+*/
+
+
+/*All other trademarks*/
+
+.trademarks {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-size: cover;
+    background-position: center center;
+    background-color: #222;
+}
+
+.trademarks__message {
+    font-family: Roboto, sans-serif;
+    font-size: 23px;
+    line-height: 32px;
+    text-align: center;
+    color: white;
+    padding-left: 25%;
+    padding-right: 25%;
+}
